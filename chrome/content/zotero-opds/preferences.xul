@@ -25,10 +25,10 @@
             <column flex="1"/>
           </columns>
           <rows>
-            <row>
+            <!-- row>
               <vbox><button label="New Secret" oncommand="newSecret();"/></vbox>
               <hbox height="80px" width="80px"><html:canvas height="80px" width="80px" id="id-opds-qr"/><spacer flex="1"/></hbox>
-            </row>
+            </row -->
             <row>
               <label value="hostname"/>
               <textbox id="id-opds-hostname" preference="pref-opds-hostname"/>
